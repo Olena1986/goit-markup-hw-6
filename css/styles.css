@@ -647,10 +647,13 @@ img {
   color: var(--modal-label-text-color);
   margin-bottom: 4px;
 }
-.modal-field {
+
+.input-wrap {
   position: relative;
+  cursor: pointer;
 }
 .modal-input {
+  position: relative;
   width: 360px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
